@@ -27,7 +27,6 @@ body{
 .section-discription{
     color: #757575;
     text-align: center;
-    font-family: ;
 }
 /* nav releted styles */
 nav{
@@ -100,7 +99,9 @@ nav a{
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3 ;
-    margin: 130px 0;
+    margin: 130px auto;
+    max-width: 800px;
+   
 }
 .about-info-container{
     display: flex;
@@ -108,4 +109,13 @@ nav a{
 }
 .about-info{
     text-align: center;
+}
+
+#what-i-do-description{
+    padding: 30px 150px; 
+}
+.What-i-do-container{
+    text-align: center;
+    max-width: 800px;
+    margin: 0px auto;
 }
